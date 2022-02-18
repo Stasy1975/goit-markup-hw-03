@@ -27,6 +27,11 @@ body {
   color: var(--main-color);
   background: var(--white-color);
 }
+.container {
+  width: 1170px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
 .second-topic {
   font-weight: 700;
