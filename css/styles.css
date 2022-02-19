@@ -41,9 +41,9 @@ body {
   background: var(--white-color);
 }
 .container {
-  width: 1170px;
-  margin-left: 15px;
-  margin-right: 15px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .second-topic {
@@ -65,6 +65,9 @@ body {
   color: var(--hover-color);
 }
 /* Header */
+.header-main {
+  padding: 24px 0 25px;
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -98,6 +101,7 @@ body {
 
 .nav-item-link:hover,
 .nav-item-link:focus {
+  padding: 24px 0 25px;
   color: var(--hover-color);
 }
 
@@ -141,7 +145,11 @@ body {
 /* main */
 .hero {
   background-color: var(--bcghero);
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
+/* .hero-main {
+} */
 .hero-idea {
   font-weight: 900;
   font-size: 44px;
@@ -164,17 +172,23 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background: var(--hover-color);
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.btn {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Преимущества*/
 .excellence {
   margin-bottom: 94px;
+  margin-top: 94px;
 }
 .excellence-list {
   display: flex;
@@ -207,11 +221,15 @@ body {
 .exx-item {
   margin-right: 30px;
 }
-/* .exx   */
+.exx {
+  padding-bottom: 94px;
+}
 
 /* Наша команда */
 .team {
+  padding-top: 94px;
   background-color: var(--bcg);
+  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
@@ -223,30 +241,50 @@ body {
 }
 .team-item {
   background-color: var(--white-color);
+  margin-right: 30px;
+  padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-item:last-child {
+  margin-right: 0;
 }
 .team-position {
   font-weight: 400;
   color: var(--second-color);
 }
-/*  ;
+
 .team-name {
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-; */
 
 /* footer */
 .footer {
   background-color: var(--bcghero);
   color: var(--white-color);
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 .address-link {
   color: rgba(255, 255, 255, 0.6);
 }
+.address-item {
+  margin-bottom: 9px;
+}
+.address-item:last-child {
+  margin-bottom: 0;
+}
 /* 
 
-.address-list .address-item;
+.address-list ;
 ; */
 
 /* PORTFOLIO */
