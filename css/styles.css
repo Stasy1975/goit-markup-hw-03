@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --bcg: #f5f4fa;
   --bcghero: #2f303a;
+  --border: #ececec;
 }
 /* Спрятанные заголовки */
 .visually-hidden {
@@ -68,6 +69,7 @@ body {
 /* Header */
 .header-main {
   padding: 24px 0 25px;
+  border-bottom: 1px solid var(--border);
 }
 .header {
   display: flex;
@@ -82,6 +84,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 93px;
 }
 .logo-front {
   color: var(--hover-color);
@@ -134,9 +137,6 @@ body {
 }
 .nav-item:last-child {
   margin-right: 0;
-}
-.nav-item:first-child {
-  margin-left: 93px;
 }
 
 .contact-item {
@@ -195,8 +195,8 @@ body {
 
 /* Преимущества*/
 .excellence {
-  margin-bottom: 94px;
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .excellence-list {
   display: flex;
@@ -277,6 +277,13 @@ body {
 }
 
 /* footer */
+.link-logo-two {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 .footer {
   background-color: var(--bcghero);
   color: var(--white-color);
@@ -321,7 +328,12 @@ portfolio-item
 
   justify-content: center;
 }
-
+.btn-filtr {
+  margin-right: 8px;
+}
+.btn-filtr:last-child {
+  margin-right: 0;
+}
 .buttons-item {
   font-family: inherit;
   font-weight: 500;
@@ -332,7 +344,6 @@ portfolio-item
   background: var(--bcg);
   border: none;
   border-radius: 4px;
-  margin-right: 8px;
   padding: 6px 22px;
 }
 .buttons-item:hover,
@@ -341,8 +352,6 @@ portfolio-item
   background: var(--hover-color);
 }
 
-/* .portfolio-main {
-} */
 .portfolio-point {
   font-weight: 700;
   font-size: 18px;
