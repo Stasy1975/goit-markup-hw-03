@@ -114,6 +114,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
+
+.icon-envelope{
+  fill: currentColor;
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus{
+  color: var(--hover-color);
+}
+/* .contact-item:hover,
+.contact-item:focus{
+  color: var(--hover-color); 
+}*/
 .contact-link:hover,
 .contact-link:focus {
   color: var(--hover-color);
@@ -139,6 +152,7 @@ body {
   margin-right: 0;
 }
 
+
 .contact-item {
   margin-left: 50px;
 }
@@ -147,12 +161,25 @@ body {
 }
 /* main */
 .hero {
-  background-color: var(--bcghero);
+  /* background-color: var(--bcghero); */
   padding-top: 200px;
   padding-bottom: 200px;
 }
 /* .hero-main {
 } */
+
+.overlay{
+  max-width: 1600px;
+  min-height: 600;
+  margin-right: auto;
+  margin-left: auto;
+  background-image:url(../img/Hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
 .hero-idea {
   font-weight: 900;
   font-size: 44px;
