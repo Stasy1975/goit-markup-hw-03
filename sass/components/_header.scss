@@ -35,7 +35,7 @@
     }
     
     &__link {
-    font-weight: 500;
+        font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-color);
@@ -56,14 +56,15 @@
         margin-left: auto;
 
         &__link {
-            font-weight: 500;
+            display: flex;
+            justify-content: normal;
+            font-weight: 500;     
             line-height: 1.14;
             letter-spacing: 0.02em;
             color: var(--second-color);
         
         &:hover,
-        &:focus,
-              {
+        &:focus {
                 color: var(--hover-color);}
 
 
@@ -79,17 +80,12 @@
     &:first-child {
     margin-left: 0;
         &:hover>contact__icon,
-        &:focus>contact__icon,
-            {
+        &:focus>contact__icon{
             fill: var(--hover-color);
+        
         }
-        }
-}
+}}
 &__icon {
     fill: var(--second-color);
-}
-}
-
-
-
-
+    margin-right: 10px;
+}}
