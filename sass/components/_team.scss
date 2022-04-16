@@ -52,10 +52,12 @@
     background-color: var(--white-color);
     border-radius: 50%;
     transition: background-color 250ms $way;
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: var(--hover-color);
         }
-        &:hover .team__icon {
+        &:hover .team__icon,
+        &:focus .team__icon {
             fill: #ffffff;
         }
         

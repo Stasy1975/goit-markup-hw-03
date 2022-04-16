@@ -338,15 +338,59 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__link:hover {
+.team__link:hover, .team__link:focus {
   background-color: var(--hover-color);
 }
 
-.team__link:hover .team__icon {
+.team__link:hover .team__icon,
+.team__link:focus .team__icon {
   fill: #ffffff;
 }
 
 .team__icon {
+  fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.klients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.klients__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.klients__item {
+  margin-right: 30px;
+}
+
+.klients__item:last-child {
+  margin-right: 0;
+}
+
+.klients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.klients__link:hover, .klients__link:focus {
+  border: 1px solid var(--hover-color);
+}
+
+.klients__link:hover .klients__icon,
+.klients__link:focus .klients__icon {
+  fill: var(--hover-color);
+}
+
+.klients__icon {
   fill: #AFB1B8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
