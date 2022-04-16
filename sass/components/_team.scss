@@ -1,0 +1,69 @@
+/* Наша команда */
+.team {
+    padding-top: 94px;
+    background-color: var(--bcg);
+    padding-bottom: 94px;
+
+    &__list {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+&__item {
+    background-color: var(--white-color);
+    margin-right: 30px;
+
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    &:last-child {
+    margin-right: 0;}
+}
+&__text {
+    padding-bottom: 16px;
+    padding-top: 30px;
+}
+&__position {
+    font-weight: 400;
+    color: var(--second-color);
+}
+&__name {
+    margin-bottom: 10px;
+}
+&__net {
+    display: flex;
+    height: 44px;
+    width: 206px;
+    margin-left: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+&__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    transition: background-color 250ms $way;
+    &:hover {
+        background-color: var(--hover-color);
+        }
+        &:hover .team__icon {
+            fill: #ffffff;
+        }
+        
+
+}
+&__icon {
+    fill: $icon;
+    transition: fill 250ms $way;
+}
+}
+ 

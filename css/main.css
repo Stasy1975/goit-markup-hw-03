@@ -155,14 +155,13 @@ body {
   margin-left: 0;
 }
 
-.contact__item:first-child:hover > contact__icon,
-.contact__item:first-child:focus > contact__icon {
-  fill: var(--hover-color);
+.contact__icon {
+  fill: #AFB1B8;
+  margin-right: 10px;
 }
 
-.contact__icon {
-  fill: var(--second-color);
-  margin-right: 10px;
+.contact__link:hover > .contact__icon {
+  fill: var(--hover-color);
 }
 
 .overlay {
@@ -256,5 +255,99 @@ body {
   width: 270px;
   background-color: var(--bcg);
   margin-bottom: 30px;
+}
+
+/* Примеры */
+.exx {
+  padding-bottom: 94px;
+}
+
+.exx__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.exx__item {
+  margin-right: 30px;
+}
+
+.exx__item:last-child {
+  margin-right: 0;
+}
+
+/* Наша команда */
+.team {
+  padding-top: 94px;
+  background-color: var(--bcg);
+  padding-bottom: 94px;
+}
+
+.team__list {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team__item {
+  background-color: var(--white-color);
+  margin-right: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__item:last-child {
+  margin-right: 0;
+}
+
+.team__text {
+  padding-bottom: 16px;
+  padding-top: 30px;
+}
+
+.team__position {
+  font-weight: 400;
+  color: var(--second-color);
+}
+
+.team__name {
+  margin-bottom: 10px;
+}
+
+.team__net {
+  display: flex;
+  height: 44px;
+  width: 206px;
+  margin-left: 32px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.team__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__link:hover {
+  background-color: var(--hover-color);
+}
+
+.team__link:hover .team__icon {
+  fill: #ffffff;
+}
+
+.team__icon {
+  fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*# sourceMappingURL=main.css.map */
