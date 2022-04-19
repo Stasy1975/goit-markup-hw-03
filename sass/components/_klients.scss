@@ -25,11 +25,12 @@
     transition: border 250ms $way;
 
     &:hover,
-    &:focus{
+    &:focus
+    {
         border: 1px solid var(--hover-color);
     }
     &:hover .klients__icon,
-     &:focus .klients__icon{
+    &:focus .klients__icon{
          fill: var(--hover-color);
      }
 }

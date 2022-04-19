@@ -24,16 +24,18 @@
     margin-right: 0;}
 }
 &__text {
-    padding-bottom: 16px;
+    padding-bottom: 30px;
     padding-top: 30px;
 }
 &__position {
     font-weight: 400;
     color: var(--second-color);
+    margin-bottom: 16px;
+    margin-top: 10px;
 }
-&__name {
-    margin-bottom: 10px;
-}
+// &__name {
+//     margin-bottom: 10px;}
+
 &__net {
     display: flex;
     height: 44px;
@@ -41,9 +43,9 @@
     margin-left: 32px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
-}
+  }
 &__link {
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,11 +58,12 @@
     &:focus {
         background-color: var(--hover-color);
         }
+    
         &:hover .team__icon,
         &:focus .team__icon {
             fill: #ffffff;
         }
-        
+     
 
 }
 &__icon {
@@ -68,4 +71,3 @@
     transition: fill 250ms $way;
 }
 }
- 

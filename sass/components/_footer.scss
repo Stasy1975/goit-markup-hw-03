@@ -30,7 +30,6 @@
 
 .footer {
     display: flex;
-    position: relative;
     background-color: $bcgfooter;
     color: var(--white-color);
     padding-top: 60px;
@@ -38,13 +37,17 @@
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
-    &__social {
-        position: absolute;
-        width: 206px;
-        height: 80px;
-        left: 516px;
-        top: 72px;}
-
+    
+&__container{
+    display: flex;
+    align-items: center;
+}
+&__address{
+    margin-right: 70px;
+}
+&__social{
+    margin-bottom: 40px;
+}
     &__list{
         display: flex;
         flex-direction: row;
