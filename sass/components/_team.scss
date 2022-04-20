@@ -31,18 +31,22 @@
     font-weight: 400;
     color: var(--second-color);
     margin-bottom: 16px;
-    margin-top: 10px;
+   
 }
-// &__name {
-//     margin-bottom: 10px;}
+&__name {
+    margin-bottom: 10px;}
 
 &__net {
     display: flex;
-    height: 44px;
-    width: 206px;
-    margin-left: 32px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+  }
+  &__social{
+      margin-right: 10px;
+    &:last-child {
+        margin-right: 0px;
+    }
+
   }
 &__link {
     
@@ -63,11 +67,14 @@
         &:focus .team__icon {
             fill: #ffffff;
         }
+    //  margin-right: 10px;
      
+     }
 
-}
+
 &__icon {
     fill: $icon;
     transition: fill 250ms $way;
+
 }
 }

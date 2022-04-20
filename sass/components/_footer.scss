@@ -40,14 +40,12 @@
     
 &__container{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 &__address{
     margin-right: 70px;
 }
-&__social{
-    margin-bottom: 40px;
-}
+
     &__list{
         display: flex;
         flex-direction: row;

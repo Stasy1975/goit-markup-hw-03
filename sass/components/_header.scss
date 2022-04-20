@@ -2,8 +2,11 @@
 .header {
     display: flex;
     flex-direction: row;
-    padding: 24px 0 25px;
-    border-bottom: 1px solid var(--border);
+    
+    &__main{
+       padding: 24px 0 25px;
+    border-bottom: 1px solid var(--border); 
+    }
 }
 .nav {
     display: flex;
@@ -41,7 +44,7 @@
     color: var(--main-color);
     &:hover,
     &:focus {
-        padding: 24px 0 25px;
+        // padding: 24px 0 25px;
         color: var(--hover-color);
 }
 }
@@ -70,7 +73,7 @@
         &:focus {
             
             color: var(--hover-color);
-            padding: 24px 0 25px;
+            // padding: 24px 0 25px;
         }
 
         // &:hover>.contact__icon
